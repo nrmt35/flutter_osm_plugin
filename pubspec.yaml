@@ -20,8 +20,7 @@ dependencies:
   uuid: ^4.2.1
   flutter_osm_interface:
     path: ./flutter_osm_interface
-  flutter_osm_web:
-    path: ./flutter_osm_web
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -43,8 +42,6 @@ flutter:
         pluginClass: FlutterOsmPlugin
       ios:
         pluginClass: FlutterOsmPlugin
-      web:
-        default_package: flutter_osm_web
 
 
   # To add assets to your plugin package, add an assets section, like this:
